@@ -1,9 +1,25 @@
+/*ROOT STYLES*/
+a {
+    text-decoration: none;;
+}
+
+b {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+body {
+    color: #4D5156;
+}
 /*HEADER STYLES*/
 header {
     width: 95%;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 header div.top-header-div {
@@ -107,25 +123,28 @@ div.search-bar-div {
 
 nav {
     margin-top: 30px;
-    width: 60%;
+    margin-bottom: 15px;
+    width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-content: center;
 }
 
 .nav-item:nth-child(7) {
     margin-left: 5%;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 20%;
 }
 
 #tools-span {
-    justify-self: flex-end;
+    margin-left: 40px;
 }
 
 .nav-item {
     display: flex;
     align-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .nav-item img {
@@ -135,4 +154,104 @@ nav {
 
 .nav-item span {
     display: block;
+}
+
+/*MAIN STYLES   */
+main {
+    max-width: 40%;
+    margin-left: 10%;
+}
+
+main div {
+    margin-bottom: 40px;
+}
+.head-main-div {
+    height: 20px;
+}
+
+.main-item-card {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.main-item-card span{
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#videos-header {
+    color: black;
+}
+
+.main-videos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.videos-card {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos-card .description-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    height: 220px;
+}
+
+.videos-card img {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+
+.description-div p:nth-child(2) {
+    margin-top: auto;
+}
+
+.questions-div {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 10px 0px 0px 0px;
+    color: black;
+}
+
+.questions-div h1 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0px;
+    height: 40px;
+    border-top: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: lightgray;
 }
