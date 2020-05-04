@@ -4,7 +4,7 @@ a {
 }
 
 b {
-    font-weight: 100;
+    font-weight: 600;
 }
 
 h1 {
@@ -254,4 +254,32 @@ main div {
     padding-left: 10px;
     padding-right: 10px;
     border-color: lightgray;
+}
+
+.related-search-div {
+    margin-bottom: 1px;;
+}
+
+.related-search {
+    display: flex;
+    height: 40px;
+    width: 50%;
+    margin: 0px;
+    align-items: center;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: lightgray
+}
+
+.related-search:nth-child(2) {
+    border-style: none;
+}
+
+.related-search img {
+    margin-right: 10px;
+}
+
+.gooooooooogle {
+    margin-left: 20%;
+    margin-top: 0px;
 }
